@@ -1,16 +1,23 @@
-import Link from 'next/link';
+import Link from "next/link";
+import styles from "./Navbar.module.css";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
-    <nav className="bg-gradient-to-r from-blue-600 to-indigo-800 text-white py-4 px-6 flex justify-between items-center">
-      <a href="/" className="text-3xl font-bold hover:text-yellow-500">Hussains Portfolio</a>
-      <div className="flex space-x-6">
-        <Link href="/" className="hover:text-yellow-500">Home</Link>
-        <Link href="/about" className="hover:text-yellow-500">About</Link>
-        <Link href="/contact" className="hover:text-yellow-500">Contact</Link>
+    <nav className={styles.navbar}>
+      <div className={styles.logo}>
+        <Link href="/">Hussains Portfolio</Link>
       </div>
+      <ul className={styles.navLinks}>
+        <li>
+          <Link href="/" className={styles.navLink}>Home</Link>
+        </li>
+        <li>
+          <Link href="/about" className={styles.navLink}>About</Link>
+        </li>
+        <li>
+          <Link href="/contact" className={styles.navLink}>Contact</Link>
+        </li>
+      </ul>
     </nav>
   );
-};
-
-export default Navbar;
+}

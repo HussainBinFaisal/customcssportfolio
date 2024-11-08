@@ -1,0 +1,64 @@
+/* Background and layout */
+.homePage {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 1), rgba(136, 10, 255, 1));
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  /* Container */
+  .homeContainer {
+    max-width: 800px;
+    width: 100%;
+    background-color: #1f2937;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and subtitle */
+  .homeTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .homeSubtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #d1d5db;
+  }
+  
+  /* Animated section for name and greeting */
+  .nameAndGreeting {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ec4899;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Button */
+  .homeButton {
+    background-color: #ec4899;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .homeButton:hover {
+    background-color: #f472b6;
+  }
+  
+  .homeButton:focus {
+    outline: none;
+  }
+  

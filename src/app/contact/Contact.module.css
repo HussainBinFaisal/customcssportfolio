@@ -1,0 +1,93 @@
+/* Background and layout */
+.contactPage {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 1), rgba(136, 10, 255, 1));
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #1f2937;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title and subtitle */
+  .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #d1d5db;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form styles */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .contactForm label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contactForm .inputField,
+  .contactForm .textArea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    background-color: #2d3748;
+    color: #e5e7eb;
+    transition: border-color 0.3s;
+  }
+  
+  .contactForm .inputField:focus,
+  .contactForm .textArea:focus {
+    outline: none;
+    border-color: #ec4899;
+  }
+  
+  /* Submit Button */
+  .submitButton {
+    background-color: #ec4899;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #f472b6;
+  }
+  
+  .submitButton:focus {
+    outline: none;
+  }
+  
